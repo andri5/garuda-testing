@@ -44,8 +44,10 @@ export default defineConfig({
           },
 
           project: 'AGA',
+          uploadAttachments: true,
 
           run: {
+            title: process.env.QASE_TESTOPS_RUN_TITLE || 'Playwright Run',
             complete: true,
           },
         },
