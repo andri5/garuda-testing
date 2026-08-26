@@ -1,0 +1,27 @@
+{
+  "name": "garuda-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andri5/garuda-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/andri5/garuda-testing/issues"
+  },
+  "homepage": "https://github.com/andri5/garuda-testing#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.3.0",
+    "playwright-qase-reporter": "^2.7.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}

@@ -1,0 +1,81 @@
+[2026-08-26T08:01:58.609Z] [DEBUG] qase: Config: {"configDir":"D:\\playwright-prjct\\garuda-testing","_mode":"list","_commandHash":"","mode":"testops","debug":true,"testops":{"api":{},"project":"AGA","run":{"complete":true,"tags":[]},"plan":{},"batch":{}},"frameworkPackage":"@playwright/test","frameworkName":"playwright","reporterName":"playwright-qase-reporter","report":{"connections":{"local":{}}}}
+[2026-08-26T08:01:58.634Z] [DEBUG] qase: Host data: {"system":"windows","machineName":"LPDPDELL9KX22T3","release":"10.0.22631","version":"Microsoft Windows [Version 10.0.22631.3155]","arch":"x64","language":"v24.19.0","packageManager":"11.17.0","framework":"1.62.1","reporter":"2.7.0","commons":"2.9.1","apiClientV1":"1.1.15","apiClientV2":"1.0.11"}
+[2026-08-26T08:01:58.641Z] [ERROR] qase: Unable to create upstream reporter:
+ Error: Either "testops.api.token" parameter or "QASE_TESTOPS_API_TOKEN" environment variable is required in "testops" mode
+    at ReporterFactory.createTestOps (D:\playwright-prjct\garuda-testing\node_modules\qase-javascript-commons\dist\qase\reporter-factory.js:38:19)
+    at ReporterFactory.create (D:\playwright-prjct\garuda-testing\node_modules\qase-javascript-commons\dist\qase\reporter-factory.js:25:29)
+    at QaseReporter.buildReporters (D:\playwright-prjct\garuda-testing\node_modules\qase-javascript-commons\dist\qase.js:96:32)
+    at new QaseReporter (D:\playwright-prjct\garuda-testing\node_modules\qase-javascript-commons\dist\qase.js:58:77)
+    at QaseReporter.getInstance (D:\playwright-prjct\garuda-testing\node_modules\qase-javascript-commons\dist\qase.js:147:37)
+    at new PlaywrightQaseReporter (D:\playwright-prjct\garuda-testing\node_modules\playwright-qase-reporter\dist\reporter.js:57:64)
+    at createReporters (D:\playwright-prjct\garuda-testing\node_modules\playwright\lib\runner\index.js:4917:39)
+    at Object.runAllTestsWithConfig (D:\playwright-prjct\garuda-testing\node_modules\playwright\lib\runner\index.js:6651:21)
+    at runTests (D:\playwright-prjct\garuda-testing\node_modules\playwright\lib\cli\testActions.js:95:18)
+    at _Command.<anonymous> (D:\playwright-prjct\garuda-testing\node_modules\playwright\lib\program.js:55:7)
+[2026-08-26T08:01:58.660Z] [DEBUG] qase: Starting test run
+[2026-08-26T08:01:58.687Z] [DEBUG] qase: Publishing test run results
+[2026-08-26T08:03:50.323Z] [DEBUG] qase: Config: {"configDir":"D:\\playwright-prjct\\garuda-testing","_mode":"list","_commandHash":"","mode":"testops","debug":true,"testops":{"api":{},"project":"AGA","run":{"complete":true,"tags":[]},"plan":{},"batch":{}},"frameworkPackage":"@playwright/test","frameworkName":"playwright","reporterName":"playwright-qase-reporter","report":{"connections":{"local":{}}}}
+[2026-08-26T08:03:50.342Z] [DEBUG] qase: Host data: {"system":"windows","machineName":"LPDPDELL9KX22T3","release":"10.0.22631","version":"Microsoft Windows [Version 10.0.22631.3155]","arch":"x64","language":"v24.19.0","packageManager":"11.17.0","framework":"1.62.1","reporter":"2.7.0","commons":"2.9.1","apiClientV1":"1.1.15","apiClientV2":"1.0.11"}
+[2026-08-26T08:03:50.345Z] [ERROR] qase: Unable to create upstream reporter:
+ Error: Either "testops.api.token" parameter or "QASE_TESTOPS_API_TOKEN" environment variable is required in "testops" mode
+    at ReporterFactory.createTestOps (D:\playwright-prjct\garuda-testing\node_modules\qase-javascript-commons\dist\qase\reporter-factory.js:38:19)
+    at ReporterFactory.create (D:\playwright-prjct\garuda-testing\node_modules\qase-javascript-commons\dist\qase\reporter-factory.js:25:29)
+    at QaseReporter.buildReporters (D:\playwright-prjct\garuda-testing\node_modules\qase-javascript-commons\dist\qase.js:96:32)
+    at new QaseReporter (D:\playwright-prjct\garuda-testing\node_modules\qase-javascript-commons\dist\qase.js:58:77)
+    at QaseReporter.getInstance (D:\playwright-prjct\garuda-testing\node_modules\qase-javascript-commons\dist\qase.js:147:37)
+    at new PlaywrightQaseReporter (D:\playwright-prjct\garuda-testing\node_modules\playwright-qase-reporter\dist\reporter.js:57:64)
+    at createReporters (D:\playwright-prjct\garuda-testing\node_modules\playwright\lib\runner\index.js:4917:39)
+    at Object.runAllTestsWithConfig (D:\playwright-prjct\garuda-testing\node_modules\playwright\lib\runner\index.js:6651:21)
+    at runTests (D:\playwright-prjct\garuda-testing\node_modules\playwright\lib\cli\testActions.js:95:18)
+    at _Command.<anonymous> (D:\playwright-prjct\garuda-testing\node_modules\playwright\lib\program.js:55:7)
+[2026-08-26T08:03:50.360Z] [DEBUG] qase: Starting test run
+[2026-08-26T08:03:50.376Z] [DEBUG] qase: Publishing test run results
+[2026-08-26T08:04:47.988Z] [DEBUG] qase: Config: {"configDir":"D:\\playwright-prjct\\garuda-testing","_mode":"list","_commandHash":"","mode":"testops","debug":true,"testops":{"api":{},"project":"AGA","run":{"complete":true,"tags":[]},"plan":{},"batch":{}},"frameworkPackage":"@playwright/test","frameworkName":"playwright","reporterName":"playwright-qase-reporter","report":{"connections":{"local":{}}}}
+[2026-08-26T08:04:48.006Z] [DEBUG] qase: Host data: {"system":"windows","machineName":"LPDPDELL9KX22T3","release":"10.0.22631","version":"Microsoft Windows [Version 10.0.22631.3155]","arch":"x64","language":"v24.19.0","packageManager":"11.17.0","framework":"1.62.1","reporter":"2.7.0","commons":"2.9.1","apiClientV1":"1.1.15","apiClientV2":"1.0.11"}
+[2026-08-26T08:04:48.009Z] [ERROR] qase: Unable to create upstream reporter:
+ Error: Either "testops.api.token" parameter or "QASE_TESTOPS_API_TOKEN" environment variable is required in "testops" mode
+    at ReporterFactory.createTestOps (D:\playwright-prjct\garuda-testing\node_modules\qase-javascript-commons\dist\qase\reporter-factory.js:38:19)
+    at ReporterFactory.create (D:\playwright-prjct\garuda-testing\node_modules\qase-javascript-commons\dist\qase\reporter-factory.js:25:29)
+    at QaseReporter.buildReporters (D:\playwright-prjct\garuda-testing\node_modules\qase-javascript-commons\dist\qase.js:96:32)
+    at new QaseReporter (D:\playwright-prjct\garuda-testing\node_modules\qase-javascript-commons\dist\qase.js:58:77)
+    at QaseReporter.getInstance (D:\playwright-prjct\garuda-testing\node_modules\qase-javascript-commons\dist\qase.js:147:37)
+    at new PlaywrightQaseReporter (D:\playwright-prjct\garuda-testing\node_modules\playwright-qase-reporter\dist\reporter.js:57:64)
+    at createReporters (D:\playwright-prjct\garuda-testing\node_modules\playwright\lib\runner\index.js:4917:39)
+    at Object.runAllTestsWithConfig (D:\playwright-prjct\garuda-testing\node_modules\playwright\lib\runner\index.js:6651:21)
+    at runTests (D:\playwright-prjct\garuda-testing\node_modules\playwright\lib\cli\testActions.js:95:18)
+    at _Command.<anonymous> (D:\playwright-prjct\garuda-testing\node_modules\playwright\lib\program.js:55:7)
+[2026-08-26T08:04:48.024Z] [DEBUG] qase: Starting test run
+[2026-08-26T08:04:48.044Z] [DEBUG] qase: Publishing test run results
+[2026-08-26T08:06:58.073Z] [DEBUG] qase: Config: {"configDir":"D:\\playwright-prjct\\garuda-testing","_mode":"list","_commandHash":"","mode":"testops","debug":true,"testops":{"api":{"token":"ef3****9ef0"},"project":"AGA","run":{"complete":true,"tags":[]},"plan":{},"batch":{}},"frameworkPackage":"@playwright/test","frameworkName":"playwright","reporterName":"playwright-qase-reporter","report":{"connections":{"local":{}}}}
+[2026-08-26T08:06:58.099Z] [DEBUG] qase: Host data: {"system":"windows","machineName":"LPDPDELL9KX22T3","release":"10.0.22631","version":"Microsoft Windows [Version 10.0.22631.3155]","arch":"x64","language":"v24.19.0","packageManager":"11.17.0","framework":"1.62.1","reporter":"2.7.0","commons":"2.9.1","apiClientV1":"1.1.15","apiClientV2":"1.0.11"}
+[2026-08-26T08:06:58.120Z] [DEBUG] qase: Starting test run
+[2026-08-26T08:06:58.122Z] [DEBUG] qase: Creating test run: {"title":"Automated run 2026-08-26T08:06:58.121Z","description":"","is_autotest":true,"cases":[],"start_time":"2026-08-26 08:06:48","tags":[]}
+[2026-08-26T08:06:59.538Z] [DEBUG] qase: Test run created: {"status":true,"result":{"id":6}}
+[2026-08-26T08:06:59.539Z] [DEBUG] qase: Publishing test run results
+[2026-08-26T08:06:59.579Z] [INFO] qase: [33mNo results to send to Qase[39m
+[2026-08-26T08:06:59.946Z] [INFO] qase: [34mTest run link: https://app.qase.io/run/AGA/dashboard/6[39m
+[2026-08-26T08:06:59.947Z] [INFO] qase: [32mRun 6 completed[39m
+[2026-08-26T08:10:01.472Z] [DEBUG] qase: Config: {"configDir":"D:\\playwright-prjct\\garuda-testing","_mode":"test","_commandHash":"chromium-bb27ffb","mode":"testops","debug":true,"testops":{"api":{"token":"ef3****9ef0"},"project":"AGA","run":{"complete":true,"tags":[]},"plan":{},"batch":{}},"frameworkPackage":"@playwright/test","frameworkName":"playwright","reporterName":"playwright-qase-reporter","report":{"connections":{"local":{}}}}
+[2026-08-26T08:10:01.499Z] [DEBUG] qase: Host data: {"system":"windows","machineName":"LPDPDELL9KX22T3","release":"10.0.22631","version":"Microsoft Windows [Version 10.0.22631.3155]","arch":"x64","language":"v24.19.0","packageManager":"11.17.0","framework":"1.62.1","reporter":"2.7.0","commons":"2.9.1","apiClientV1":"1.1.15","apiClientV2":"1.0.11"}
+[2026-08-26T08:10:01.590Z] [DEBUG] qase: Starting test run
+[2026-08-26T08:10:01.591Z] [DEBUG] qase: Creating test run: {"title":"Automated run 2026-08-26T08:10:01.591Z","description":"","is_autotest":true,"cases":[],"start_time":"2026-08-26 08:09:51","tags":[]}
+[2026-08-26T08:10:03.248Z] [DEBUG] qase: Test run created: {"status":true,"result":{"id":7}}
+[2026-08-26T08:10:06.341Z] [INFO] qase: [32mTest Verify Example Page passed[39m
+[2026-08-26T08:10:06.343Z] [DEBUG] qase: Adding test result: {"attachments":[],"author":null,"execution":{"status":"passed","start_time":1787731802.508,"end_time":1787731806.223,"duration":3715,"stacktrace":null,"error_context":null,"thread":"21780-0"},"fields":{},"id":"06a3784c-cbc7-411a-86fa-e08dc97f7b8b","message":null,"muted":false,"params":{},"group_params":{},"tags":[],"relations":{"suite":{"data":[{"title":"chromium","public_id":null},{"title":"qase-test.spec.ts","public_id":null}]}},"run_id":null,"signature":"1::chromium::qase-test.spec.ts::verify_example_page","steps":[],"testops_id":1,"testops_project_mapping":null,"title":"Verify Example Page"}
+[2026-08-26T08:10:06.451Z] [DEBUG] qase: Publishing test run results
+[2026-08-26T08:10:06.452Z] [DEBUG] qase: Transformed result: {"title":"Verify Example Page","execution":{"status":"passed","start_time":1787731802.508,"end_time":1787731806.223,"duration":3715,"stacktrace":null,"error_context":null,"thread":"21780-0"},"testops_ids":[1],"attachments":[],"steps":[],"params":{},"param_groups":[],"relations":{"suite":{"data":[{"public_id":null,"title":"chromium"},{"public_id":null,"title":"qase-test.spec.ts"}]}},"message":null,"fields":{},"defect":false,"signature":"1::chromium::qase-test.spec.ts::verify_example_page"}
+[2026-08-26T08:10:06.830Z] [DEBUG] qase: Results sent to Qase: 1
+[2026-08-26T08:10:07.177Z] [INFO] qase: [34mTest run link: https://app.qase.io/run/AGA/dashboard/7[39m
+[2026-08-26T08:10:07.177Z] [INFO] qase: [32mRun 7 completed[39m
+[2026-08-26T08:16:31.434Z] [DEBUG] qase: Config: {"configDir":"D:\\playwright-prjct\\garuda-testing","_mode":"test","_commandHash":"chromium-bb27ffb","mode":"testops","debug":true,"testops":{"api":{"token":"ef3****9ef0"},"project":"AGA","run":{"complete":true,"tags":[]},"plan":{},"batch":{}},"frameworkPackage":"@playwright/test","frameworkName":"playwright","reporterName":"playwright-qase-reporter","report":{"connections":{"local":{}}}}
+[2026-08-26T08:16:31.452Z] [DEBUG] qase: Host data: {"system":"windows","machineName":"LPDPDELL9KX22T3","release":"10.0.22631","version":"Microsoft Windows [Version 10.0.22631.3155]","arch":"x64","language":"v24.19.0","packageManager":"11.17.0","framework":"1.62.1","reporter":"2.7.0","commons":"2.9.1","apiClientV1":"1.1.15","apiClientV2":"1.0.11"}
+[2026-08-26T08:16:31.472Z] [DEBUG] qase: Starting test run
+[2026-08-26T08:16:31.473Z] [DEBUG] qase: Creating test run: {"title":"Automated run 2026-08-26T08:16:31.473Z","description":"","is_autotest":true,"cases":[],"start_time":"2026-08-26 08:16:21","tags":[]}
+[2026-08-26T08:16:33.112Z] [DEBUG] qase: Test run created: {"status":true,"result":{"id":8}}
+[2026-08-26T08:16:33.152Z] [INFO] qase: [32mTest Verify Example Page passed[39m
+[2026-08-26T08:16:33.153Z] [DEBUG] qase: Adding test result: {"attachments":[],"author":null,"execution":{"status":"passed","start_time":1787732192.316,"end_time":1787732193.005,"duration":689,"stacktrace":null,"error_context":null,"thread":"10932-0"},"fields":{},"id":"29ed0d4a-dbd1-4907-8579-7f0aa91e0ff4","message":null,"muted":false,"params":{},"group_params":{},"tags":[],"relations":{"suite":{"data":[{"title":"chromium","public_id":null},{"title":"qase-test.spec.ts","public_id":null}]}},"run_id":null,"signature":"1::chromium::qase-test.spec.ts::verify_example_page","steps":[],"testops_id":1,"testops_project_mapping":null,"title":"Verify Example Page"}
+[2026-08-26T08:16:33.243Z] [DEBUG] qase: Publishing test run results
+[2026-08-26T08:16:33.245Z] [DEBUG] qase: Transformed result: {"title":"Verify Example Page","execution":{"status":"passed","start_time":1787732192.316,"end_time":1787732193.005,"duration":689,"stacktrace":null,"error_context":null,"thread":"10932-0"},"testops_ids":[1],"attachments":[],"steps":[],"params":{},"param_groups":[],"relations":{"suite":{"data":[{"public_id":null,"title":"chromium"},{"public_id":null,"title":"qase-test.spec.ts"}]}},"message":null,"fields":{},"defect":false,"signature":"1::chromium::qase-test.spec.ts::verify_example_page"}
+[2026-08-26T08:16:33.727Z] [DEBUG] qase: Results sent to Qase: 1
+[2026-08-26T08:16:34.072Z] [INFO] qase: [34mTest run link: https://app.qase.io/run/AGA/dashboard/8[39m
+[2026-08-26T08:16:34.072Z] [INFO] qase: [32mRun 8 completed[39m
